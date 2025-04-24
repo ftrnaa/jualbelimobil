@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Login - Venus Cars</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/styles/3.4.1">    
 </head>
 <body class="bg-gray-100 flex items-center justify-center min-h-screen">
 

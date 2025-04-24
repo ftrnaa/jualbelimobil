@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Dashboard - Venus Cars</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/styles/tailwindcss3.4.1.js">
 </head>
-<body class="bg-gray-100 min-h-screen font-sans">
+    <body class="bg-gray-100 min-h-screen font-sans">
 
     <!-- Sidebar -->
     <div class="flex">
@@ -23,6 +23,7 @@
         <!-- Main Content -->
         <main class="flex-1 p-10">
             <h1 class="text-3xl font-bold text-gray-800 mb-6">Welcome to Your Dashboard</h1>
+           
 
             <!-- Stats Cards -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -39,16 +40,7 @@
                     <p class="text-2xl font-bold text-blue-600">19</p>
                 </div>
             </div>
-
-            <!-- Recent Activity -->
-            <div class="bg-white p-6 rounded-2xl shadow-md">
-                <h2 class="text-xl font-semibold text-gray-700 mb-4">Recent Activity</h2>
-                <ul class="space-y-2">
-                    <li class="text-gray-600">✔️ New user <strong>johndoe</strong> registered</li>
-                    <li class="text-gray-600">🚗 Order #1024 placed for <strong>Toyota Camry</strong></li>
-                    <li class="text-gray-600">📦 Product <strong>Honda Civic</strong> added to inventory</li>
-                </ul>
-            </div>
+        
         </main>
     </div>
 

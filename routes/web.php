@@ -5,6 +5,7 @@ use App\Http\Controllers\ListBarangController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ListItemController;
+use App\Http\Controllers\NewListBarangController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -36,3 +37,12 @@ Route::get('/listbarang/{id}/{nama}', [ListBarangController::class, 'tampilkan']
 Route::get('/login', [LoginController::class, 'index']);
 Route::get('/dashboard', [DashboardController::class, 'index']);
 Route::get('/listitem', [ListItemController::class, 'index']);
+Route::get('/newlistbarang', [NewListBarangController::class, 'index']);
+Route::get('/praktikum5', function () {
+    return view('praktikum5');
+});
+
+Route::get('/home', function () {
+    return view('pages/home');
+});
+Route::get('/produk', [ProdukController::class, 'index']);

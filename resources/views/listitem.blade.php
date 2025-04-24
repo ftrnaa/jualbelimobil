@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>List Item - Venus Cars</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
+    <link rel="stylesheet" href="/styles/tailwindcss3.4.1.js"></head>
 <body class="bg-gray-100 min-h-screen font-sans">
 
     <div class="flex">
