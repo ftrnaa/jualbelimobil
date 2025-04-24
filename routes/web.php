@@ -6,6 +6,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ListItemController;
 use App\Http\Controllers\NewListBarangController;
+use App\Http\Controllers\ProductController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -45,4 +46,4 @@ Route::get('/praktikum5', function () {
 Route::get('/home', function () {
     return view('pages/home');
 });
-Route::get('/produk', [ProdukController::class, 'index']);
+Route::get('/produk', [ProductController::class, 'index']);
